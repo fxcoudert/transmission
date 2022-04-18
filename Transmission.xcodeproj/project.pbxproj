@@ -1116,7 +1116,6 @@
 		E138A9750C04D88F00C5426C /* ProgressGradients.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressGradients.h; sourceTree = "<group>"; };
 		E138A9760C04D88F00C5426C /* ProgressGradients.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ProgressGradients.mm; sourceTree = "<group>"; };
 		E23B55A5FC3B557F7746D511 /* interned-string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "interned-string.h"; sourceTree = SOURCE_ROOT; };
-		E7087D82279F1B1700AA245E /* Transmission.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Transmission.entitlements; sourceTree = "<group>"; };
 		E71A5564279C2DD600EBFA1E /* tr-assert.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "tr-assert.mm"; sourceTree = "<group>"; };
 		ED8A163B2735A8AA000D61F9 /* peer-mgr-active-requests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "peer-mgr-active-requests.h"; sourceTree = "<group>"; };
 		ED8A163C2735A8AA000D61F9 /* peer-mgr-active-requests.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "peer-mgr-active-requests.cc"; sourceTree = "<group>"; };
@@ -1384,7 +1383,6 @@
 		29B97314FDCFA39411CA2CEA /* Transmission */ = {
 			isa = PBXGroup;
 			children = (
-				E7087D82279F1B1700AA245E /* Transmission.entitlements */,
 				A22CEF9E21CDC44400C5C1BA /* Transmission.entitlements */,
 				4DDBB70A09E16B3200284745 /* GUI */,
 				A2F35BC315C5A0A100EBF632 /* QuickLookPlugin */,
@@ -3305,7 +3303,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = Transmission.entitlements;
+				CODE_SIGN_ENTITLEMENTS = macosx/Transmission.entitlements;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = macosx;
 				GCC_PREFIX_HEADER = macosx/Transmission_Prefix.pch;
@@ -3517,7 +3515,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = Transmission.entitlements;
+				CODE_SIGN_ENTITLEMENTS = macosx/Transmission.entitlements;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = macosx;
 				GCC_PREFIX_HEADER = macosx/Transmission_Prefix.pch;
@@ -3683,7 +3681,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_ENTITLEMENTS = Transmission.entitlements;
+				CODE_SIGN_ENTITLEMENTS = macosx/Transmission.entitlements;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = macosx;
 				GCC_PREFIX_HEADER = macosx/Transmission_Prefix.pch;
